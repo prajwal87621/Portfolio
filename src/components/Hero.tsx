@@ -16,11 +16,11 @@ export const Hero = () => {
           <div className="mb-8 animate-fade-in">
             <div className="relative inline-block">
               <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full blur-sm opacity-75 animate-pulse" />
-              <div className="relative w-40 h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 rounded-full overflow-hidden border-4 border-background shadow-2xl">
+               <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-background shadow-2xl">
                 <img
                   src={profilePhoto}
                   alt="Prajwal Mahantesh Vanarotti"
-                  className="w-full h-full object-cover rotate-90 scale-125 object-[center_30%]"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </div>
