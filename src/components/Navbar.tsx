@@ -45,7 +45,7 @@ export const Navbar = () => {
             </a>
           ))}
           <Button variant="glow" size="sm" asChild>
-            <a href="https://drive.google.com/file/d/1T3-gLcd5h2Xlqv7HDaRX92sUF2UJN2gj/view" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/1Pi2uUKzS_8gNQkJystdIhhsoAAYNkeAc/view?usp=sharing" target="_blank" rel="noopener noreferrer">
               <Download className="w-4 h-4" />
               Resume
             </a>
