@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail, MapPin, ExternalLink } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import profilePhoto from '@/assets/profile-photo.jpg';
 
 export const Hero = () => {
   return (
@@ -11,13 +12,27 @@ export const Hero = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
+          {/* Profile Photo */}
+          <div className="mb-8 animate-fade-in">
+            <div className="relative inline-block">
+              <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full blur-sm opacity-75 animate-pulse" />
+              <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-background shadow-2xl">
+                <img
+                  src={profilePhoto}
+                  alt="Prajwal Mahantesh Vanarotti"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+          </div>
+
           {/* Greeting */}
-          <p className="text-primary font-mono text-sm md:text-base mb-4 animate-fade-in">
+          <p className="text-primary font-mono text-sm md:text-base mb-4 animate-fade-in" style={{ animationDelay: '0.1s' }}>
             Hi there, I'm
           </p>
           
           {/* Name */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 animate-slide-up">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 animate-slide-up" style={{ animationDelay: '0.15s' }}>
             Prajwal Mahantesh{' '}
             <span className="text-gradient">Vanarotti</span>
           </h1>
