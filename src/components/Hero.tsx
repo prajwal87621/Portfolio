@@ -20,7 +20,7 @@ export const Hero = () => {
                 <img
                   src={profilePhoto}
                   alt="Prajwal Mahantesh Vanarotti"
-                  className="w-full h-full object-cover rotate-90"
+                  className="w-full h-full object-cover rotate-90 scale-125 object-[center_30%]"
                 />
               </div>
             </div>
