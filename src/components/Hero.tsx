@@ -1,6 +1,6 @@
 import { Github, Linkedin, Mail, MapPin, ExternalLink } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import profilePhoto from '@/assets/passport size photo1.jpg';
+import profilePhoto from '@/assets/profile-photo.jpg';
 
 export const Hero = () => {
   return (
